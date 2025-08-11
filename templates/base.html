@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+    
+    <!-- This line includes your CSS file -->
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <!-- Optional: Google Fonts for better typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/logo.png" alt="{{ config.extra.company_name }}" class="logo-img" onerror="this.style.display='none'">
+                    <span class="logo-text">{{ config.extra.company_name }}</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="mailto:{{ config.extra.email }}">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>{{ config.extra.company_name }}</h3>
+                    <p>{{ config.extra.tagline }}</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: {{ config.extra.email }}</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p>Research Translation</p>
+                    <p>Industry Partnerships</p>
+                    <p>Innovation Consulting</p>
+                    <p>Knowledge Networks</p>
+                </div>
+            </div>
+            <hr style="border-color: #1a3a66;">
+            <p>&copy; {{ now() | date(format="%Y") }} {{ config.extra.company_name }}. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Show fallback if hero image fails to load
+        document.addEventListener('DOMContentLoaded', function() {
+            const heroImg = document.querySelector('.hero-image img');
+            const fallback = document.querySelector('.hero-fallback');
+            
+            if (heroImg && fallback) {
+                heroImg.addEventListener('error', function() {
+                    heroImg.style.display = 'none';
+                    fallback.style.display = 'flex';
+                });
+                
+                // Check if image is already broken
+                if (heroImg.complete && heroImg.naturalHeight === 0) {
+                    heroImg.style.display = 'none';
+                    fallback.style.display = 'flex';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

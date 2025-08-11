@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>{{ config.extra.company_name }}</h1>
+        <p class="hero-tagline">{{ config.extra.tagline }}</p>
+        <p class="hero-description">Bridging the gap between cutting-edge research and real-world industry applications worldwide.</p>
+        <div class="hero-buttons">
+            <a href="mailto:{{ config.extra.email }}" class="cta-button primary">Get Started</a>
+            <a href="mailto:{{ config.extra.email }}?subject=Viten Hub Inquiry" class="cta-button secondary">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<div class="content-section">
+{{ section.content | safe }}
+</div>
+{% endblock %}

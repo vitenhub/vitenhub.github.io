@@ -1,0 +1,31 @@
+# The base URL of the site
+base_url = "https://yourusername.github.io/viten-hub"
+
+# The site title and description
+title = "Viten Hub"
+description = "Accelerating Knowledge Transfer from Research to Industry"
+
+# The default language
+default_language = "en"
+
+# Generate a feed
+generate_feed = false
+
+# Compile Sass
+compile_sass = false
+
+# Minify HTML
+minify_html = true
+
+# Build search index
+build_search_index = false
+
+[markdown]
+# Enable syntax highlighting
+highlight_code = false
+
+[extra]
+# Add any extra variables you want to use in templates
+company_name = "Viten Hub"
+tagline = "Accelerating Knowledge Transfer from Research to Industry"
+email = "contact@vitenhub.no"
