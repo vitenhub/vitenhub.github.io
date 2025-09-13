@@ -29,7 +29,7 @@ Our mission is to accelerate the transfer of knowledge from research institution
 
 ## Industries We Serve
 
-Technology & Software • Healthcare & Life Sciences • Energy & Sustainability • Manufacturing & Engineering • Finance & FinTech • Maritime & Offshore
+Technology & Software • Earth Observation • Biodiversity & Environmental Sciences 
 
 ## Contact Us
 
