@@ -363,7 +363,47 @@ footer {
     color: #be2e78;
 }
 
-/* Responsive Design */
+/* Founder Image Styling */
+.content-section img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 0 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* LinkedIn Links Styling */
+.content-section a[href*="linkedin"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #0077b5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    transition: all 0.2s ease;
+}
+
+.content-section a[href*="linkedin"]:hover {
+    background: #005885;
+    transform: translateY(-1px);
+    color: white;
+    text-decoration: none;
+}
+
+.content-section a[href*="linkedin"]::before {
+    content: "in";
+    background: white;
+    color: #0077b5;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    border-radius: 2px;
+    line-height: 1;
+}
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;

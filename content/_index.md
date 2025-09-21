@@ -9,6 +9,27 @@ Viten Hub is dedicated to bridging the critical gap between groundbreaking resea
 
 Our mission is to accelerate the transfer of knowledge from research institutions to businesses that can implement these discoveries at scale.
 
+## About the Founder
+
+![Anne Fouilloux](anne-fouilloux.png)
+
+**Anne Fouilloux** brings over 25 years of experience making cutting-edge research ready for industry uptake. As a former Research Engineer at Simula Research Laboratory and University of Oslo research leader, Anne has successfully prepared academic research for practical implementation and now focuses on knowledge transfer through Viten Hub.
+
+
+**Key Achievements:**
+- **€8M Project Coordinator** - Led Horizon Europe [FAIR2Adapt](https://fair2adapt-eosc.eu) project enhancing climate adaptation strategies
+- **Pangeo Steering Council** - Member of the global big data geosciences community, coordinating European activities and [EOSC](https://eosc.eu) deployment
+- **500+ Researchers Trained** - Educated researchers across Europe on big data analysis and FAIR principles
+- **International Experience** - Worked with [ECMWF](https://www.ecmwf.int) (UK), Norwegian institutions, and European collaborations
+- **EU Project Contributor** - Key contributor to major EU projects including [EOSC-Nordic](https://eosc-nordic.eu) and [RELIANCE](https://cordis.europa.eu/project/id/101017501)
+
+Anne's unique combination of **academic rigor** (PhD in Atmospheric Physics), **technical expertise** (parallel computing, data management), and **project management skills** (managing 15+ member international teams) makes her ideally positioned to accelerate knowledge transfer from research to industry.
+
+*"Having spent my career translating complex research into actionable solutions, I understand both the innovation potential locked in academia and the practical needs of industry."*
+
+
+[Connect with Anne on LinkedIn →](https://www.linkedin.com/in/annefouilloux/)
+
 ## Our Services
 
 **Research Translation** - We help translate complex research findings into actionable insights that businesses can understand and implement.
@@ -29,10 +50,18 @@ Our mission is to accelerate the transfer of knowledge from research institution
 
 ## Industries We Serve
 
-Technology & Software • Earth Observation • Biodiversity & Environmental Sciences 
+Technology & Software • Earth Observation • Biodiversity & Environmental Sciences
+
+## Our Initiatives
+
+**Science Live** - Viten Hub leads [Science Live](https://www.linkedin.com/company/sciencelive/), an initiative focused on making science more accessible and engaging through live demonstrations and interactive experiences.
 
 ## Contact Us
 
 Ready to accelerate your organization's innovation? 
 
 **Email**: contact@vitenhub.no
+
+**Connect with us:**
+- [Viten Hub on LinkedIn →](https://www.linkedin.com/company/viten-hub/)
+- [Science Live on LinkedIn →](https://www.linkedin.com/company/sciencelive/)
