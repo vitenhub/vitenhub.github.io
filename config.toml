@@ -3,7 +3,7 @@ base_url = "https://vitenhub.no"
 
 # The site title and description
 title = "Viten Hub"
-description = "Accelerating Knowledge Transfer from Research to Industry"
+description = "Independent replication of published research, on your data. Fixed price, citable result, delivered on the open Science Live platform."
 
 # The default language
 default_language = "en"
@@ -27,5 +27,5 @@ highlight_code = false
 [extra]
 # Add any extra variables you want to use in templates
 company_name = "Viten Hub"
-tagline = "Accelerating Knowledge Transfer from Research to Industry"
+tagline = "Independent replication of published research — on your data"
 email = "contact@vitenhub.no"
