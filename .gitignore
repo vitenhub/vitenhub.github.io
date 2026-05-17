@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Zola build output
+public/
+
+# macOS
+.DS_Store
+
+# Editor / local backups
+*.sav
+*.SAV
