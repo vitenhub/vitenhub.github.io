@@ -30,6 +30,14 @@ Anne's unique combination of **academic rigor** (PhD in Atmospheric Physics), **
 
 [Connect with Anne on LinkedIn →](https://www.linkedin.com/in/annefouilloux/)
 
+## Featured Service: Research Replication
+
+We replicate published studies and adapt them to your data. Results are delivered as signed, citable nanopublications using the [Science Live](https://sciencelive4all.org) platform.
+
+**€2,000–€10,000 per replication**, depending on data complexity and algorithm.
+
+[Learn more about Research Replication Services →](/replication-services)
+
 ## Our Services
 
 **Research Translation** - We help translate complex research findings into actionable insights that businesses can understand and implement.
