@@ -1,6 +1,6 @@
 +++
 title = "Viten Hub — Reproducible and replicable research"
-description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price, delivered as executable notebooks and signed, citable nanopublications. From €2,000."
+description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price, delivered as tested Python code, an online Jupyter Book and signed, citable nanopublications. From €2,000."
 +++
 
 ## How Viten Hub can help
@@ -12,7 +12,7 @@ Research is only as useful as it is **reproducible** — can someone else re-run
 
 **Examples of what research organisations, businesses, agencies and funders ask us to do:**
 
-- *"Our team publishes models and analyses — we want anyone, including our own future staff, to be able to re-run them with one click."*
+- *"Our team publishes models and analyses — we want anyone, including our own future staff, to be able to re-run them."*
 - *"This published climate-impact projection informs our regional adaptation policy — does it hold for our region and time horizon?"*
 - *"We need to know whether this published biodiversity-decline mechanism applies to the species and habitats we manage."*
 - *"We funded this research and want an independent replication of the deliverable before scaling up the next phase."*
@@ -23,9 +23,10 @@ Research is only as useful as it is **reproducible** — can someone else re-run
 Every Viten Hub engagement is delivered as:
 
 - **Runnable research, adapted to your data** — the analysis rebuilt so it runs end to end on your data, in your context
-- **One-click executable notebooks** — a link that opens the analysis ready to run, with its software environment and cloud-native data already in place, on your infrastructure or ours
+- **Tested Python code** — clean scripts, packaged as a reusable Python library when the method deserves one
+- **An online Jupyter Book** — the full analysis rendered on the web, code and figures together, readable without installing anything
 - **Signed, citable FORRT nanopublication chain** on the open [Science Live](https://sciencelive4all.org) platform — what was done, what changed, what held and what didn't; verifiable by anyone, permanently citable, no vendor lock-in
-- **Source code + reproducible environment** (container, pinned environment, GitHub repository with a DOI)
+- **Reproducible environment** — pinned software environment and container, in a GitHub repository archived with a DOI
 - **Written report** covering methodology, deviations from the source, sensitivity tests, and a clear verdict
 - **Fixed price agreed up front** — no scope creep, no hourly billing
 

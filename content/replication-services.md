@@ -1,6 +1,6 @@
 +++
 title = "Reproducible and Replicable Research"
-description = "We make research re-runnable by anyone and test whether it holds on your data. Delivered as executable notebooks and signed, citable nanopublications. From €2,000 per study."
+description = "We make research re-runnable by anyone and test whether it holds on your data. Delivered as tested Python code, an online Jupyter Book and signed, citable nanopublications. From €2,000 per study."
 +++
 
 # Reproducible and Replicable Research
@@ -17,9 +17,10 @@ We make research **reproducible** — anyone can re-run it and get the same resu
 ## What's included
 
 - The study rebuilt so it runs end to end, adapted to your data and workflows
-- One-click executable notebooks — the analysis opens ready to run, with its environment and data in place
+- Tested Python code, packaged as a reusable Python library when needed
+- An online Jupyter Book rendering the full analysis — code and figures together, readable without installing anything
 - Signed, citable nanopublications of what was done and what was found
-- Brief written report with source code and a reproducible environment
+- Brief written report and a reproducible environment, archived with a DOI
 - Direct support from the team throughout the engagement
 
 ## Pricing
@@ -33,7 +34,7 @@ The final price depends on data complexity and the method involved. We agree a f
 1. **Scope** — We discuss the study, your data, and what "reproduced" and "replicated" mean for your purposes.
 2. **Quote** — A fixed price within the €2,000–€10,000 range, agreed in writing up front.
 3. **Rebuild and test** — We make the study runnable and test it on your data, using the open Science Live platform.
-4. **Deliver** — Executable notebooks, signed nanopublications, written report, source code, and reproducible environment.
+4. **Deliver** — Python code (and package if needed), online Jupyter Book, signed nanopublications, written report, and reproducible environment.
 
 ## Get in touch
 
