@@ -4,6 +4,7 @@
 [[members]]
 name = "Jean Iaquinta"
 role = "CEO"
+photo = "jean-iaquinta.jpg"
 bio = "Scientific-computing engineer specialising in reproducible, portable and high-performance research software — from bitwise-reproducible climate models in containers to Pangeo deployments on the European Open Science Cloud. Research background in climate and environmental science."
 linkedin = "https://www.linkedin.com/in/jean-iaquinta-680839407/"
 

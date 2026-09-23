@@ -656,6 +656,12 @@ footer {
     padding: 1.5rem;
 }
 
+.content-section .team-member img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
 .team-member h3 {
     margin: 0 0 0.25rem;
 }
