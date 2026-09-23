@@ -1,0 +1,23 @@
+{%- set data = load_data(path="data/team.toml") -%}
+<div class="team">
+{%- for m in data.members %}
+  <div class="team-member">
+    {%- if m.photo %}
+    <img src="/{{ m.photo }}" alt="{{ m.name }}">
+    {%- endif %}
+    <h3>{{ m.name }}</h3>
+    <p class="team-role">{{ m.role }}</p>
+    <p>{{ m.bio }}</p>
+    {%- if m.highlights %}
+    <ul>
+      {%- for h in m.highlights %}
+      <li>{{ h | markdown(inline=true) | safe }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- if m.linkedin %}
+    <p><a href="{{ m.linkedin }}" target="_blank" rel="noopener">Connect with {{ m.name | split(pat=" ") | first }} on LinkedIn →</a></p>
+    {%- endif %}
+  </div>
+{%- endfor %}
+</div>

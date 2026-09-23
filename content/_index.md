@@ -1,99 +1,76 @@
 +++
-title = "Viten Hub — Independent replication of published research"
-description = "Fixed-price replication of published studies on your data, delivered as signed, citable nanopublications. From €2,000."
+title = "Viten Hub — Reproducible and replicable research"
+description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price. You get tested code, a clear verdict with its limitations, and a record you and others can search and find later. From €2,000."
 +++
 
 ## How Viten Hub can help
 
-You're considering acting on published research — building it into a product, basing a decision on it, setting policy, funding follow-up work. Before you commit, you need to know whether the research actually holds for **your** data, your region, your operation.
+Research is only as useful as it is **reproducible** — can someone else re-run it and get the same result? — and **replicable** — does it still hold on new data, in a new region, for a new question? We treat both as one job: we make the research runnable, test it on the data that matters to you, and publish what we find so anyone can check it.
 
-Viten Hub replicates the study on your data and delivers the result as a signed, citable nanopublication chain. You see exactly what was done, what was changed, what survived, and what didn't — verifiable by anyone, citable in your own reports, permanently yours to reference.
+- **Researchers — replicate before you cite it.** Before a result becomes the foundation of your paper, check that it re-runs and holds.
+- **Industry and the public sector — replicate before you build on it.** Before a published result goes into a product, a policy or an investment, check that it holds for your data, your region, your operation.
 
-**Examples of what businesses, agencies, and funders ask us to verify:**
+**Examples of what research organisations, businesses, agencies and funders ask us to do:**
 
+- *"Our team publishes models and analyses — we want anyone, including our own future staff, to be able to re-run them."*
 - *"This published climate-impact projection informs our regional adaptation policy — does it hold for our region and time horizon?"*
 - *"We need to know whether this published biodiversity-decline mechanism applies to the species and habitats we manage."*
 - *"We funded this research and want an independent replication of the deliverable before scaling up the next phase."*
-- *"This published method could unlock our R&D pipeline — does it work on our data?"*
 - *"We want to test newly-published methods on our data and infrastructure as they appear — staying in front of the state of the art, not chasing competitors."*
 
 ## What you get
 
-Every Viten Hub replication is delivered as:
+Every Viten Hub engagement gives you:
 
-- **Bespoke replication** of the chosen study, adapted to your data and your context
-- **Signed, citable FORRT nanopublication chain** on the open [Science Live](https://sciencelive4all.org) platform — verifiable by anyone, permanently citable, no vendor lock-in
-- **Source code + reproducible environment** (Docker container, conda environment, GitHub repository)
-- **Written report** covering methodology, deviations from the source paper, sensitivity tests, and a clear verdict
+- **The research, working on your data** — rebuilt so it runs end to end, in your context
+- **A clear verdict, with its limitations** — what held, what didn't, and under which conditions, so you know exactly how far you can rely on the result
+- **An online report** — the whole study readable in a web browser: method, figures, results and what we changed from the original, with nothing to install
+- **Code you can reuse and re-run** — tested, documented, and archived permanently, so your team (or anyone you choose) can repeat the study years from now
+- **A record you can find again** on the open [Science Live](https://sciencelive4all.org) platform — you, your colleagues and your AI assistants can search past studies and see what was checked and what was found
 - **Fixed price agreed up front** — no scope creep, no hourly billing
 
-**€2,000 – €10,000 per replication**, depending on data complexity and the method involved. We agree a fixed quote in that range in writing before any work begins.
+**€2,000 – €10,000 per study**, depending on data complexity and the method involved. We agree a fixed quote in that range in writing before any work begins.
+
+Larger engagements — several studies, ongoing support, or making a whole team's research reproducible — are quoted separately. Computing costs are always included in the quote; where it helps, we also draw on national and European computing programmes such as [Sigma2](https://www.sigma2.no) (Norway) and [EuroHPC](https://eurohpc-ju.europa.eu).
 
 <div class="contact-buttons">
-  <a href="mailto:contact@vitenhub.no?subject=Replication%20enquiry" class="sl-link">Discuss your replication →</a>
+  <a href="mailto:contact@vitenhub.no?subject=Enquiry" class="sl-link">Discuss your project →</a>
   <a href="/replication-services" class="sl-link sl-link--outline">See full service details →</a>
 </div>
 
+<p class="recent-work-link"><a href="/how-we-work">For technical teams: how we work →</a></p>
+
 ## Why this matters
 
-Around **a third of high-profile published findings don't replicate** when independently retested. For decisions built on those findings — regional policy, R&D investments, funded programmes — that's a quiet, expensive risk.
+Around **a third of high-profile published findings don't replicate** when independently retested, and much published research can't even be re-run: the code, data or environment behind it is missing or has drifted. For decisions built on those findings — regional policy, R&D investments, funded programmes — that's a quiet, expensive risk.
 
-The existing options for independent verification are slow, expensive, or both:
+The existing options are slow, expensive, or both:
 
 - **Build it in-house** — months of engineering effort; results stay private and walk out the door when staff change
 - **Wait for peer-reviewed follow-up work** — 12–24 months, depends on third-party publication cycles, may never address your specific question
 - **Commission a traditional contract-research firm** — tens of thousands of euros, deliverable is a private PDF you can't independently cite
 
-Viten Hub turns independent replication into a **fixed-price, fixed-scope engagement** delivered as **verifiable evidence anyone can audit**. Built on the open Science Live platform — the verification is yours, permanently citable, and not locked inside a private vendor system.
+Viten Hub turns this into a **fixed-price, fixed-scope engagement** delivered as **evidence you can re-run, with its limits stated, and find again later**. Built on the open Science Live platform — the result is yours, permanently citable, and not locked inside a private vendor system.
+
+## AI tools for research {#ai-tools}
+
+We build open tools that let AI assistants (such as ChatGPT or Claude) work with the research record — find which studies have already been checked, what was found and with which limitations, and which software and data a paper relies on. Our **Replication Radar** won **Theme B: Build** at the [OpenAIRE AI Hackathon 2026](https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html). Both tools are open source and free to use. [How they work →](/how-we-work#ai-tools)
+
+We can build the same for your data and your workflows.
 
 ## Recent work
 
-A selection of replications, research-software releases, and synthesis chains delivered by the Viten Hub founder as signed nanopublications on the open Science Live platform.
-
-<div class="recent-work">
-  <div class="work-item">
-    <span class="work-badge work-badge--synthesis">Synthesis</span>
-    <a class="work-title" href="https://platform.sciencelive4all.org/np/?uri=https://w3id.org/sciencelive/np/RA1q6c0fG2bMbiozF8Az2UpIfzAzqp8hoVEl6QIzfUpH8" target="_blank" rel="noopener">Iberian bumblebees under climate warming — replication of Soroye 2020. Mechanism transfers; coefficient ~2× the continental estimate. 19-nanopublication FORRT chain across three repositories.</a>
-    <span class="work-date">May 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--synthesis">Synthesis</span>
-    <span class="work-title">Spherical machine learning for biodiversity — sphere-aware vs flat ML head-to-head on HEALPix, with a real Ningaloo-Niño 2011 biodiversity overlay. 20-nanopublication chain across three sub-chains.</span>
-    <span class="work-date">May 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--claim">Claim</span>
-    <span class="work-title">DGGS vs lat-lon grids for biodiversity — systematic over-counting on equirectangular grids relative to equal-area HEALPix-NESTED. 7-nanopublication chain.</span>
-    <span class="work-date">May 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--software">Software</span>
-    <span class="work-title">FIESTA research-software releases — six reusable upstream packages for sphere-aware scattering covariance and plankton classification (foscat, planktonclas, healpix-geo, earthcarekit, healpix-resample, fiesta-scattering-bio).</span>
-    <span class="work-date">May 2026</span>
-  </div>
-</div>
+{{ recent_work() }}
 
 <p class="recent-work-link"><a href="https://platform.sciencelive4all.org/np/" target="_blank" rel="noopener">See all published work on the open Science Live platform →</a></p>
 
-## About the founder
+## Team
 
-![Anne Fouilloux](anne-fouilloux.png)
-
-**Anne Fouilloux — Founder.** 25+ years preparing cutting-edge research for industry uptake.
-
-- **€8M EU project coordinator** — Horizon Europe [FAIR2Adapt](https://fair2adapt-eosc.eu), climate adaptation strategies
-- **Pangeo Steering Council** — coordinating European activities and [EOSC](https://eosc.eu) deployment in the global big-data geosciences community
-- **PhD Atmospheric Physics** with practitioner experience at [ECMWF](https://www.ecmwf.int) (UK), Simula Research Laboratory, and University of Oslo
-- **500+ researchers trained** across Europe on big-data analysis and FAIR principles
-- **Contributor** to [EOSC-Nordic](https://eosc-nordic.eu), [RELIANCE](https://cordis.europa.eu/project/id/101017501), and the [Pangeo](https://pangeo.io) community
-
-*"Having spent my career translating complex research into actionable solutions, I understand both the innovation potential locked in academia and the practical needs of industry."*
-
-[Connect with Anne on LinkedIn →](https://www.linkedin.com/in/annefouilloux/)
+{{ team() }}
 
 ## Also offered — Science Live adoption
 
-Consulting for organizations that want to **publish their own work** as FORRT-grade nanopublication chains on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
+Consulting for organizations that want to **publish their own work** as searchable, citable records (nanopublications) on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
 
 Useful for: research groups wanting permanent attribution; funders wanting an independent verification surface for their portfolio; teams adopting FAIR4RS practices.
 
@@ -101,15 +78,15 @@ Email **contact@vitenhub.no** to discuss scope.
 
 ## Get in touch
 
-Ready to commission a replication? Email **contact@vitenhub.no** with:
+Email **contact@vitenhub.no** with:
 
-- A link or PDF of the paper you want replicated
+- A link or PDF of the paper, model or analysis you want made reproducible or tested
 - A brief description of your data — format, size, how we'd access it
-- The decision the replication is meant to inform
+- The decision the work is meant to inform
 
 You'll get a fixed-price quote within €2,000–€10,000, agreed in writing before any work begins.
 
 <div class="contact-buttons">
-  <a href="mailto:contact@vitenhub.no?subject=Replication%20enquiry" class="sl-link">Email contact@vitenhub.no →</a>
+  <a href="mailto:contact@vitenhub.no?subject=Enquiry" class="sl-link">Email contact@vitenhub.no →</a>
   <a href="https://www.linkedin.com/company/viten-hub/" target="_blank" rel="noopener">Viten Hub on LinkedIn →</a>
 </div>
