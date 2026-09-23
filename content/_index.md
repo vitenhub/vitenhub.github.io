@@ -31,6 +31,8 @@ Every Viten Hub engagement gives you:
 
 **€2,000 – €10,000 per study**, depending on data complexity and the method involved. We agree a fixed quote in that range in writing before any work begins.
 
+Larger engagements — several studies, ongoing support, or making a whole team's research reproducible — are quoted separately. Computing costs are always included in the quote; where it helps, we also apply for computing time through national and European programmes such as [Sigma2](https://www.sigma2.no) (Norway) and [EuroHPC](https://eurohpc-ju.europa.eu).
+
 <div class="contact-buttons">
   <a href="mailto:contact@vitenhub.no?subject=Enquiry" class="sl-link">Discuss your project →</a>
   <a href="/replication-services" class="sl-link sl-link--outline">See full service details →</a>
