@@ -20,7 +20,7 @@ The scripts are rendered as a [Jupyter Book](https://jupyterbook.org): a website
 ## Archiving and citation
 
 - The code lives in a **GitHub** repository, and each release is archived on **[Zenodo](https://zenodo.org)** with its own DOI, so it can be cited like a paper.
-- The code is also saved to **[Software Heritage](https://www.softwareheritage.org)**, the universal archive of source code, and the online report to the **Internet Archive**, so links keep working.
+- On each release, the code is also saved to **[Software Heritage](https://www.softwareheritage.org)**, the universal archive of source code, and the online report to the **[Internet Archive](https://web.archive.org)**, so it stays readable even if a link breaks.
 
 ## The findable record
 
