@@ -1,0 +1,22 @@
+# Team cards shown on the homepage via the team() shortcode.
+# photo is a path under static/ (optional); highlights are rendered as Markdown.
+
+[[members]]
+name = "Jean Iaquinta"
+role = "CEO"
+bio = "Scientific-computing engineer specialising in reproducible, portable and high-performance research software — from bitwise-reproducible climate models in containers to Pangeo deployments on the European Open Science Cloud. Research background in climate and environmental science."
+linkedin = "https://www.linkedin.com/in/jean-iaquinta-680839407/"
+
+[[members]]
+name = "Anne Fouilloux"
+role = "Founder"
+photo = "anne-fouilloux.png"
+bio = "25+ years preparing cutting-edge research for industry uptake."
+linkedin = "https://www.linkedin.com/in/annefouilloux/"
+highlights = [
+  "**€8M EU project coordinator** — Horizon Europe [FAIR2Adapt](https://fair2adapt-eosc.eu), climate adaptation strategies",
+  "**Pangeo Steering Council** — coordinating European activities and [EOSC](https://eosc.eu) deployment in the global big-data geosciences community",
+  "**PhD Atmospheric Physics** with practitioner experience at [ECMWF](https://www.ecmwf.int) (UK), Simula Research Laboratory, and University of Oslo",
+  "**500+ researchers trained** across Europe on big-data analysis and FAIR principles",
+  "**Contributor** to [EOSC-Nordic](https://eosc-nordic.eu), [RELIANCE](https://cordis.europa.eu/project/id/101017501), and the [Pangeo](https://pangeo.io) community",
+]

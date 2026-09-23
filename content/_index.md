@@ -58,60 +58,13 @@ We can build the same for your data and your workflows.
 
 ## Recent work
 
-<div class="recent-work">
-  <div class="work-item">
-    <span class="work-badge work-badge--award">Award</span>
-    <a class="work-title" href="https://doi.org/10.5281/zenodo.21850976" target="_blank" rel="noopener">Replication Radar — a website and AI-assistant tool that shows which published papers have been independently replicated, and with what verdict, on top of the OpenAIRE Graph. Winner, OpenAIRE AI Hackathon 2026 (Theme B: Build).</a>
-    <span class="work-date">Sep 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--project">Project</span>
-    <span class="work-title">Making research reproducible and replicable for IFREMER within the ESA GRID4EARTH project.</span>
-    <span class="work-date">2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--software">Software</span>
-    <a class="work-title" href="https://doi.org/10.5281/zenodo.22869401" target="_blank" rel="noopener">FORRT Research MCP — an AI-assistant tool to search past replication studies on Science Live and help write up new ones.</a>
-    <span class="work-date">Sep 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--outcome">Outcome</span>
-    <a class="work-title" href="https://platform.sciencelive4all.org/np/story?uri=https%3A%2F%2Fw3id.org%2Fnp%2FRAQfGMNmJiFt4KDDJE8dsiT3az4CRYehRuDFoa-tXGc8w" target="_blank" rel="noopener">Marine heatwaves are getting longer and more frequent — replication of Oliver et al. 2018 on independent ESA CCI satellite sea-surface temperature. Validated.</a>
-    <span class="work-date">Aug 2026</span>
-  </div>
-  <div class="work-item">
-    <span class="work-badge work-badge--synthesis">Synthesis</span>
-    <a class="work-title" href="https://platform.sciencelive4all.org/np/?uri=https://w3id.org/sciencelive/np/RA1q6c0fG2bMbiozF8Az2UpIfzAzqp8hoVEl6QIzfUpH8" target="_blank" rel="noopener">Iberian bumblebees under climate warming — replication of Soroye 2020. Mechanism transfers; coefficient ~2× the continental estimate.</a>
-    <span class="work-date">May 2026</span>
-  </div>
-</div>
+{{ recent_work() }}
 
 <p class="recent-work-link"><a href="https://platform.sciencelive4all.org/np/" target="_blank" rel="noopener">See all published work on the open Science Live platform →</a></p>
 
 ## Team
 
-<div class="team">
-  <div class="team-member">
-    <h3>Jean Iaquinta</h3>
-    <p class="team-role">CEO</p>
-    <p>Scientific-computing engineer specialising in reproducible, portable and high-performance research software — from bitwise-reproducible climate models in containers to Pangeo deployments on the European Open Science Cloud. Research background in climate and environmental science.</p>
-    <p><a href="https://www.linkedin.com/in/jean-iaquinta-680839407/" target="_blank" rel="noopener">Connect with Jean on LinkedIn →</a></p>
-  </div>
-  <div class="team-member">
-    <img src="anne-fouilloux.png" alt="Anne Fouilloux">
-    <h3>Anne Fouilloux</h3>
-    <p class="team-role">Founder</p>
-    <p>25+ years preparing cutting-edge research for industry uptake.</p>
-    <ul>
-      <li><strong>€8M EU project coordinator</strong> — Horizon Europe <a href="https://fair2adapt-eosc.eu">FAIR2Adapt</a>, climate adaptation strategies</li>
-      <li><strong>Pangeo Steering Council</strong> — coordinating European activities and <a href="https://eosc.eu">EOSC</a> deployment in the global big-data geosciences community</li>
-      <li><strong>PhD Atmospheric Physics</strong> with practitioner experience at <a href="https://www.ecmwf.int">ECMWF</a> (UK), Simula Research Laboratory, and University of Oslo</li>
-      <li><strong>500+ researchers trained</strong> across Europe on big-data analysis and FAIR principles</li>
-      <li><strong>Contributor</strong> to <a href="https://eosc-nordic.eu">EOSC-Nordic</a>, <a href="https://cordis.europa.eu/project/id/101017501">RELIANCE</a>, and the <a href="https://pangeo.io">Pangeo</a> community</li>
-    </ul>
-    <p><a href="https://www.linkedin.com/in/annefouilloux/" target="_blank" rel="noopener">Connect with Anne on LinkedIn →</a></p>
-  </div>
-</div>
+{{ team() }}
 
 ## Also offered — Science Live adoption
 

@@ -1,0 +1,14 @@
+{%- set data = load_data(path="data/recent_work.toml") -%}
+<div class="recent-work">
+{%- for item in data.items %}
+  <div class="work-item">
+    <span class="work-badge work-badge--{{ item.badge }}">{{ item.badge | title }}</span>
+    {%- if item.url %}
+    <a class="work-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    {%- else %}
+    <span class="work-title">{{ item.title }}</span>
+    {%- endif %}
+    <span class="work-date">{{ item.date }}</span>
+  </div>
+{%- endfor %}
+</div>
