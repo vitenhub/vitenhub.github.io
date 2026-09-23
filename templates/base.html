@@ -7,7 +7,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
     
     <!-- This line includes your CSS file -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ get_url(path='css/main.css', cachebust=true) }}">
     
     <!-- Optional: Google Fonts for better typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
