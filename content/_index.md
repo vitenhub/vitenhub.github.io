@@ -1,6 +1,6 @@
 +++
 title = "Viten Hub — Reproducible and replicable research"
-description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price, delivered as tested Python code, an online Jupyter Book and signed, citable nanopublications. From €2,000."
+description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price. You get tested code, a clear verdict with its limitations, and a record you and others can search and find later. From €2,000."
 +++
 
 ## How Viten Hub can help
@@ -25,7 +25,8 @@ Every Viten Hub engagement is delivered as:
 - **Runnable research, adapted to your data** — the analysis rebuilt so it runs end to end on your data, in your context
 - **Tested Python code** — clean scripts, packaged as a reusable Python library when the method deserves one
 - **An online Jupyter Book** — the full analysis rendered on the web, code and figures together, readable without installing anything
-- **Signed, citable FORRT nanopublication chain** on the open [Science Live](https://sciencelive4all.org) platform — what was done, what changed, what held and what didn't; verifiable by anyone, permanently citable, no vendor lock-in
+- **A clear verdict, with its limitations** — what held, what didn't, and under which conditions, so you know exactly how far you can rely on the result
+- **A searchable record** on the open [Science Live](https://sciencelive4all.org) platform — you, your colleagues and your AI assistants can find past studies later and see what was checked and what was found (published as open, machine-readable nanopublications; no vendor lock-in)
 - **Reproducible environment** — pinned software environment and container, in a GitHub repository archived with a DOI
 - **Written report** covering methodology, deviations from the source, sensitivity tests, and a clear verdict
 - **Fixed price agreed up front** — no scope creep, no hourly billing
@@ -47,11 +48,11 @@ The existing options are slow, expensive, or both:
 - **Wait for peer-reviewed follow-up work** — 12–24 months, depends on third-party publication cycles, may never address your specific question
 - **Commission a traditional contract-research firm** — tens of thousands of euros, deliverable is a private PDF you can't independently cite
 
-Viten Hub turns this into a **fixed-price, fixed-scope engagement** delivered as **verifiable evidence anyone can audit and re-run**. Built on the open Science Live platform — the result is yours, permanently citable, and not locked inside a private vendor system.
+Viten Hub turns this into a **fixed-price, fixed-scope engagement** delivered as **evidence you can re-run, with its limits stated, and find again later**. Built on the open Science Live platform — the result is yours, permanently citable, and not locked inside a private vendor system.
 
 ## AI tools for research {#ai-tools}
 
-We build open [MCP](https://modelcontextprotocol.io) servers that let AI assistants work with the scholarly record — find what has already been replicated, which software and data a paper relies on, and publish results as citable nanopublications. Our **Replication Radar** won **Theme B: Build** at the [OpenAIRE AI Hackathon 2026](https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html). Both servers are open source, citable, and listed in the official MCP Registry.
+We build open [MCP](https://modelcontextprotocol.io) servers that let AI assistants work with the scholarly record — find which studies have already been checked, what was found and with which limitations, and which software and data a paper relies on. Our **Replication Radar** won **Theme B: Build** at the [OpenAIRE AI Hackathon 2026](https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html). Both servers are open source, citable, and listed in the official MCP Registry.
 
 We can build the same for your data and your workflows.
 
@@ -70,7 +71,7 @@ We can build the same for your data and your workflows.
   </div>
   <div class="work-item">
     <span class="work-badge work-badge--software">Software</span>
-    <a class="work-title" href="https://doi.org/10.5281/zenodo.22869401" target="_blank" rel="noopener">FORRT Research MCP — lets AI assistants read and draft FORRT replication chains on Science Live. Published on PyPI and listed in the official MCP Registry.</a>
+    <a class="work-title" href="https://doi.org/10.5281/zenodo.22869401" target="_blank" rel="noopener">FORRT Research MCP — lets AI assistants search past replication studies on Science Live and help write up new ones. Published on PyPI and listed in the official MCP Registry.</a>
     <span class="work-date">Sep 2026</span>
   </div>
   <div class="work-item">
@@ -80,7 +81,7 @@ We can build the same for your data and your workflows.
   </div>
   <div class="work-item">
     <span class="work-badge work-badge--synthesis">Synthesis</span>
-    <a class="work-title" href="https://platform.sciencelive4all.org/np/?uri=https://w3id.org/sciencelive/np/RA1q6c0fG2bMbiozF8Az2UpIfzAzqp8hoVEl6QIzfUpH8" target="_blank" rel="noopener">Iberian bumblebees under climate warming — replication of Soroye 2020. Mechanism transfers; coefficient ~2× the continental estimate. 19-nanopublication FORRT chain across three repositories.</a>
+    <a class="work-title" href="https://platform.sciencelive4all.org/np/?uri=https://w3id.org/sciencelive/np/RA1q6c0fG2bMbiozF8Az2UpIfzAzqp8hoVEl6QIzfUpH8" target="_blank" rel="noopener">Iberian bumblebees under climate warming — replication of Soroye 2020. Mechanism transfers; coefficient ~2× the continental estimate.</a>
     <span class="work-date">May 2026</span>
   </div>
 </div>
@@ -114,7 +115,7 @@ We can build the same for your data and your workflows.
 
 ## Also offered — Science Live adoption
 
-Consulting for organizations that want to **publish their own work** as FORRT-grade nanopublication chains on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
+Consulting for organizations that want to **publish their own work** as searchable, citable records (nanopublications) on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
 
 Useful for: research groups wanting permanent attribution; funders wanting an independent verification surface for their portfolio; teams adopting FAIR4RS practices.
 
