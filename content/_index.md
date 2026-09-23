@@ -71,13 +71,16 @@ We can build the same for your data and your workflows.
 
 {{ team() }}
 
-## Also offered — Science Live adoption
+## Training and onboarding {#training}
 
-Consulting for organizations that want to **publish their own work** as searchable, citable records (nanopublications) on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
+Hands-on training for your team, from a one-day workshop to support over several months:
 
-Useful for: research groups wanting permanent attribution; funders wanting an independent verification surface for their portfolio; teams adopting FAIR4RS practices.
+- **Research people can re-run** — organising code, data and software so results can be repeated years later
+- **Large climate and Earth-observation data in the cloud** — working with big datasets without downloading them, using the open [Pangeo](https://pangeo.io) tools
+- **AI assistants for research** — using and building tools that let AI assistants search the research record
+- **Checking a published result** — how to run a replication study from start to finish, with a clear verdict and its limitations
 
-Email **contact@vitenhub.no** to discuss scope.
+Quoted on request — email **contact@vitenhub.no**.
 
 ## Get in touch
 
