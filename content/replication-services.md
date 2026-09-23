@@ -17,12 +17,13 @@ We make research **reproducible** — anyone can re-run it and get the same resu
 ## What's included
 
 - The study rebuilt so it runs end to end, adapted to your data and workflows
-- Tested Python code, packaged as a reusable Python library when needed
-- An online Jupyter Book rendering the full analysis — code and figures together, readable without installing anything
 - A clear verdict with its limitations — how far you can rely on the result
-- A searchable, citable record of what was done and found, on the open Science Live platform
-- Brief written report and a reproducible environment, archived with a DOI
+- An online report of the whole study, readable in a web browser with nothing to install
+- Code you can reuse and re-run, tested and archived permanently
+- A record of what was done and found on the open Science Live platform, searchable by you, your colleagues and AI assistants
 - Direct support from the team throughout the engagement
+
+Technical details — the tools, formats and archives we use — are on [How we work](/how-we-work).
 
 ## Pricing
 
@@ -34,8 +35,8 @@ The final price depends on data complexity and the method involved. We agree a f
 
 1. **Scope** — We discuss the study, your data, and what "reproduced" and "replicated" mean for your purposes.
 2. **Quote** — A fixed price within the €2,000–€10,000 range, agreed in writing up front.
-3. **Rebuild and test** — We make the study runnable and test it on your data, using the open Science Live platform.
-4. **Deliver** — Python code (and package if needed), online Jupyter Book, verdict and limitations, searchable record on Science Live, written report, and reproducible environment.
+3. **Rebuild and test** — We make the study runnable and test it on your data.
+4. **Deliver** — The verdict and its limitations, the online report, the code, and the record on Science Live.
 
 ## Get in touch
 

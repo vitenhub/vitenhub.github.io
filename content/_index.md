@@ -20,15 +20,13 @@ Research is only as useful as it is **reproducible** — can someone else re-run
 
 ## What you get
 
-Every Viten Hub engagement is delivered as:
+Every Viten Hub engagement gives you:
 
-- **Runnable research, adapted to your data** — the analysis rebuilt so it runs end to end on your data, in your context
-- **Tested Python code** — clean scripts, packaged as a reusable Python library when the method deserves one
-- **An online Jupyter Book** — the full analysis rendered on the web, code and figures together, readable without installing anything
+- **The research, working on your data** — rebuilt so it runs end to end, in your context
 - **A clear verdict, with its limitations** — what held, what didn't, and under which conditions, so you know exactly how far you can rely on the result
-- **A searchable record** on the open [Science Live](https://sciencelive4all.org) platform — you, your colleagues and your AI assistants can find past studies later and see what was checked and what was found (published as open, machine-readable nanopublications; no vendor lock-in)
-- **Reproducible environment** — pinned software environment and container, in a GitHub repository archived with a DOI
-- **Written report** covering methodology, deviations from the source, sensitivity tests, and a clear verdict
+- **An online report** — the whole study readable in a web browser: method, figures, results and what we changed from the original, with nothing to install
+- **Code you can reuse and re-run** — tested, documented, and archived permanently, so your team (or anyone you choose) can repeat the study years from now
+- **A record you can find again** on the open [Science Live](https://sciencelive4all.org) platform — you, your colleagues and your AI assistants can search past studies and see what was checked and what was found
 - **Fixed price agreed up front** — no scope creep, no hourly billing
 
 **€2,000 – €10,000 per study**, depending on data complexity and the method involved. We agree a fixed quote in that range in writing before any work begins.
@@ -37,6 +35,8 @@ Every Viten Hub engagement is delivered as:
   <a href="mailto:contact@vitenhub.no?subject=Enquiry" class="sl-link">Discuss your project →</a>
   <a href="/replication-services" class="sl-link sl-link--outline">See full service details →</a>
 </div>
+
+<p class="recent-work-link"><a href="/how-we-work">For technical teams: how we work →</a></p>
 
 ## Why this matters
 
@@ -52,7 +52,7 @@ Viten Hub turns this into a **fixed-price, fixed-scope engagement** delivered as
 
 ## AI tools for research {#ai-tools}
 
-We build open [MCP](https://modelcontextprotocol.io) servers that let AI assistants work with the scholarly record — find which studies have already been checked, what was found and with which limitations, and which software and data a paper relies on. Our **Replication Radar** won **Theme B: Build** at the [OpenAIRE AI Hackathon 2026](https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html). Both servers are open source, citable, and listed in the official MCP Registry.
+We build open tools that let AI assistants (such as ChatGPT or Claude) work with the research record — find which studies have already been checked, what was found and with which limitations, and which software and data a paper relies on. Our **Replication Radar** won **Theme B: Build** at the [OpenAIRE AI Hackathon 2026](https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html). Both tools are open source and free to use. [How they work →](/how-we-work#ai-tools)
 
 We can build the same for your data and your workflows.
 
@@ -61,7 +61,7 @@ We can build the same for your data and your workflows.
 <div class="recent-work">
   <div class="work-item">
     <span class="work-badge work-badge--award">Award</span>
-    <a class="work-title" href="https://doi.org/10.5281/zenodo.21850976" target="_blank" rel="noopener">Replication Radar — an MCP server and web tool that shows which published papers have been independently replicated, and with what verdict, on top of the OpenAIRE Graph. Winner, OpenAIRE AI Hackathon 2026 (Theme B: Build).</a>
+    <a class="work-title" href="https://doi.org/10.5281/zenodo.21850976" target="_blank" rel="noopener">Replication Radar — a website and AI-assistant tool that shows which published papers have been independently replicated, and with what verdict, on top of the OpenAIRE Graph. Winner, OpenAIRE AI Hackathon 2026 (Theme B: Build).</a>
     <span class="work-date">Sep 2026</span>
   </div>
   <div class="work-item">
@@ -71,7 +71,7 @@ We can build the same for your data and your workflows.
   </div>
   <div class="work-item">
     <span class="work-badge work-badge--software">Software</span>
-    <a class="work-title" href="https://doi.org/10.5281/zenodo.22869401" target="_blank" rel="noopener">FORRT Research MCP — lets AI assistants search past replication studies on Science Live and help write up new ones. Published on PyPI and listed in the official MCP Registry.</a>
+    <a class="work-title" href="https://doi.org/10.5281/zenodo.22869401" target="_blank" rel="noopener">FORRT Research MCP — an AI-assistant tool to search past replication studies on Science Live and help write up new ones.</a>
     <span class="work-date">Sep 2026</span>
   </div>
   <div class="work-item">
