@@ -31,7 +31,7 @@ Technical details — the tools, formats and archives we use — are on [How we 
 
 The final price depends on data complexity and the method involved. We agree a fixed quote within that range up front, before any work begins.
 
-Larger engagements — several studies, ongoing support, or making a whole team's research reproducible — are quoted separately. Computing costs are always included in the quote; where it helps, we also apply for computing time through national and European programmes such as [Sigma2](https://www.sigma2.no) (Norway) and [EuroHPC](https://eurohpc-ju.europa.eu).
+Larger engagements — several studies, ongoing support, or making a whole team's research reproducible — are quoted separately. Computing costs are always included in the quote; where it helps, we also draw on national and European computing programmes such as [Sigma2](https://www.sigma2.no) (Norway) and [EuroHPC](https://eurohpc-ju.europa.eu).
 
 ## How we work
 
