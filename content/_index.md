@@ -5,18 +5,21 @@ description = "We make research re-runnable by anyone and test whether published
 
 ## How Viten Hub can help
 
-Research is only as useful as it is **reproducible** — can someone else re-run it and get the same result? — and **replicable** — does it still hold on new data, in a new region, for a new question? We treat both as one job: we make the research runnable, test it on the data that matters to you, and publish what we find so anyone can check it.
+Published research can look solid and still fail when someone else tries it: the result can't be re-created, or it doesn't hold on other data. We check it for you, before you rely on it.
 
-- **Researchers — replicate before you cite it.** Before a result becomes the foundation of your paper, check that it re-runs and holds.
-- **Industry and the public sector — replicate before you build on it.** Before a published result goes into a product, a policy or an investment, check that it holds for your data, your region, your operation.
+{{ how_it_works() }}
 
-**Examples of what research organisations, businesses, agencies and funders ask us to do:**
+- **Businesses and public agencies** — before a published result goes into a product, a policy or an investment, find out whether it holds for your data, your region, your operation.
+- **Funders** — before scaling up, get an independent check that the work you funded holds up.
+- **Researchers** — check a result before you cite it, and make your own work easy for others to re-run.
 
-- *"Our team publishes models and analyses — we want anyone, including our own future staff, to be able to re-run them."*
-- *"This published climate-impact projection informs our regional adaptation policy — does it hold for our region and time horizon?"*
-- *"We need to know whether this published biodiversity-decline mechanism applies to the species and habitats we manage."*
-- *"We funded this research and want an independent replication of the deliverable before scaling up the next phase."*
-- *"We want to test newly-published methods on our data and infrastructure as they appear — staying in front of the state of the art, not chasing competitors."*
+**Questions clients bring us:**
+
+- *"Does this climate projection hold for our region?"*
+- *"Does this published biodiversity finding apply to the species we manage?"*
+- *"Before we fund phase two, does phase one hold up?"*
+- *"Will this new method work on our data?"*
+- *"Will our own models still run in five years, after staff have changed?"*
 
 ## What you get
 
@@ -68,13 +71,16 @@ We can build the same for your data and your workflows.
 
 {{ team() }}
 
-## Also offered — Science Live adoption
+## Training and onboarding {#training}
 
-Consulting for organizations that want to **publish their own work** as searchable, citable records (nanopublications) on the open [Science Live](https://sciencelive4all.org) platform. Includes training, infrastructure setup, chain design, and operational support.
+Hands-on training for your team, from a one-day workshop to support over several months:
 
-Useful for: research groups wanting permanent attribution; funders wanting an independent verification surface for their portfolio; teams adopting FAIR4RS practices.
+- **Research people can re-run** — organising code, data and software so results can be repeated years later
+- **Large climate and Earth-observation data in the cloud** — working with big datasets without downloading them, using the open [Pangeo](https://pangeo.io) tools
+- **AI assistants for research** — using and building tools that let AI assistants search the research record
+- **Checking a published result** — how to run a replication study from start to finish, with a clear verdict and its limitations
 
-Email **contact@vitenhub.no** to discuss scope.
+Quoted on request — email **contact@vitenhub.no**.
 
 ## Get in touch
 

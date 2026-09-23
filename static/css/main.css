@@ -680,3 +680,68 @@ footer {
 .content-section ul + p {
     margin-top: 1.25rem;
 }
+
+/* "How Viten Hub can help" three-step illustration */
+.steps {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    counter-reset: step;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    padding: 1.5rem 1.25rem;
+    border: 1px solid #e8eaed;
+    border-radius: 8px;
+    background: #fbfbfc;
+}
+
+.step + .step::before {
+    content: "→";
+    position: absolute;
+    left: -1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #be2e78;
+    font-size: 1.25rem;
+}
+
+.step-icon {
+    width: 48px;
+    height: 48px;
+    fill: none;
+    stroke: #be2e78;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-bottom: 0.5rem;
+}
+
+.step h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    color: #1a3a66;
+}
+
+.step p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #5f6368;
+}
+
+@media (max-width: 720px) {
+    .steps {
+        grid-template-columns: 1fr;
+    }
+    .step + .step::before {
+        content: "↓";
+        left: 50%;
+        top: -1.35rem;
+        transform: translateX(-50%);
+    }
+}
