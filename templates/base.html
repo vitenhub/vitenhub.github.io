@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
 
     {#- Link previews (LinkedIn, Facebook, Slack, X) -#}
-    {%- set og_title = config.extra.tagline ~ " | " ~ config.title -%}
+    {%- set og_title = trans(key="tagline", lang=lang) ~ " | " ~ config.title -%}
     {%- set og_desc = config.description -%}
     {%- set og_url = config.base_url -%}
     {%- if section and section.description -%}
@@ -26,7 +26,7 @@
     <meta property="og:image" content="{{ get_url(path='og-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
-    <meta property="og:image:alt" content="Viten Hub — Know the research holds, before you rely on it">
+    <meta property="og:image:alt" content="{{ trans(key='og_image_alt', lang=lang) }}">
     <meta name="twitter:card" content="summary_large_image">
     
     <!-- This line includes your CSS file -->
@@ -48,9 +48,16 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/how-we-work">How we work</a></li>
-                        <li><a href="mailto:{{ config.extra.email }}">Contact</a></li>
+                        <li><a href="{{ get_url(path='@/_index.md', lang=lang) }}">{{ trans(key="nav_home", lang=lang) }}</a></li>
+                        <li><a href="{{ get_url(path='@/how-we-work.md') }}">{{ trans(key="nav_how", lang=lang) }}</a></li>
+                        <li><a href="mailto:{{ config.extra.email }}">{{ trans(key="nav_contact", lang=lang) }}</a></li>
+                        {#- Language switch: same page in the other language, else its homepage -#}
+                        {%- set other = "nb" -%}
+                        {%- if lang == "nb" %}{% set other = config.default_language %}{% endif -%}
+                        {%- set switch_url = get_url(path='@/_index.md', lang=other) -%}
+                        {%- if section %}{% set translations = section.translations %}{% elif page %}{% set translations = page.translations %}{% else %}{% set translations = [] %}{% endif -%}
+                        {%- for t in translations %}{% if t.lang == other %}{% set_global switch_url = t.permalink %}{% endif %}{% endfor %}
+                        <li><a href="{{ switch_url }}" hreflang="{{ other }}" lang="{{ other }}" class="lang-switch">{{ trans(key="switch_label", lang=lang) }}</a></li>
                     </ul>
                 </nav>
             </div>
@@ -68,21 +75,22 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>{{ config.extra.company_name }}</h3>
-                    <p>{{ config.extra.tagline }}</p>
+                    <p>{{ trans(key="tagline", lang=lang) }}</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>Email: {{ config.extra.email }}</p>
+                    <h3>{{ trans(key="footer_contact", lang=lang) }}</h3>
+                    <p>{{ trans(key="footer_email", lang=lang) }}: {{ config.extra.email }}</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Services</h3>
-                    <p><a href="/replication-services">Reproducible &amp; replicable research</a></p>
-                    <p><a href="/#ai-tools">AI tools for research</a></p>
-                    <p><a href="/#training">Training and onboarding</a></p>
+                    {%- set home = get_url(path='@/_index.md', lang=lang) %}
+                    <h3>{{ trans(key="footer_services", lang=lang) }}</h3>
+                    <p><a href="{{ get_url(path='@/replication-services.md', lang=lang) }}">{{ trans(key="footer_service_study", lang=lang) | safe }}</a></p>
+                    <p><a href="{{ home }}#ai-tools">{{ trans(key="footer_service_ai", lang=lang) }}</a></p>
+                    <p><a href="{{ home }}#training">{{ trans(key="footer_service_training", lang=lang) }}</a></p>
                 </div>
             </div>
             <hr style="border-color: #1a3a66;">
-            <p>&copy; {{ now() | date(format="%Y") }} {{ config.extra.company_name }}. All rights reserved.</p>
+            <p>&copy; {{ now() | date(format="%Y") }} {{ config.extra.company_name }}. {{ trans(key="rights", lang=lang) }}</p>
         </div>
     </footer>
 </body>
