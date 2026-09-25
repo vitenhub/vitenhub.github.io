@@ -4,15 +4,15 @@
 <section class="hero">
     <div class="hero-content">
         <h1>{{ config.extra.company_name }}</h1>
-        <p class="hero-tagline">{{ config.extra.tagline }}</p>
-        <p class="hero-description">We make research re-runnable by anyone — and we test whether published results hold on your data. Fixed price. You get tested code, a clear verdict with its limitations, and a record you can search and find again on the open Science Live platform.</p>
+        <p class="hero-tagline">{{ trans(key="tagline", lang=lang) }}</p>
+        <p class="hero-description">{{ trans(key="hero_description", lang=lang) }}</p>
         <div class="hero-buttons">
-            <a href="mailto:{{ config.extra.email }}?subject=Enquiry" class="cta-button primary">Get a quote</a>
+            <a href="mailto:{{ config.extra.email }}?subject={{ trans(key='enquiry_subject', lang=lang) | urlencode }}" class="cta-button primary">{{ trans(key="get_quote", lang=lang) }}</a>
         </div>
     </div>
     <ul class="proof-strip">
-        <li>Making research reproducible and replicable for <a href="https://www.ifremer.fr/en" target="_blank" rel="noopener"><strong>IFREMER</strong></a> within the <a href="https://grid4earth.eu/" target="_blank" rel="noopener"><strong>ESA GRID4EARTH</strong></a> project</li>
-        <li><a href="https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html" target="_blank" rel="noopener"><strong>Winner</strong>, OpenAIRE AI Hackathon 2026 — Theme B: Build</a></li>
+        <li>{{ trans(key="proof_ifremer_before", lang=lang) }} <a href="https://www.ifremer.fr/en" target="_blank" rel="noopener"><strong>IFREMER</strong></a> {{ trans(key="proof_ifremer_middle", lang=lang) }} <a href="https://grid4earth.eu/" target="_blank" rel="noopener"><strong>ESA GRID4EARTH</strong></a>{% if lang == "nb" %}{{ trans(key="proof_ifremer_after", lang=lang) }}{% else %} {{ trans(key="proof_ifremer_after", lang=lang) }}{% endif %}</li>
+        <li><a href="https://innovation.openaire.eu/component/content/article/openaire-ai-hackathon.html" target="_blank" rel="noopener">{{ trans(key="proof_hackathon", lang=lang) | safe }}</a></li>
     </ul>
 </section>
 

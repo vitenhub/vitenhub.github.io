@@ -1,32 +1,42 @@
 # Recent work shown on the homepage via the recent_work() shortcode.
 # badge: award | project | software | outcome | synthesis | claim  (colour classes in static/css/main.css)
 # url is optional; entries without one render as plain text.
+# title_nb / date_nb: Norwegian text for /nb/ (falls back to English when missing).
 
 [[items]]
 badge = "award"
 title = "Replication Radar — a website and AI-assistant tool that shows which published papers have been independently replicated, and with what verdict, on top of the OpenAIRE Graph. Winner, OpenAIRE AI Hackathon 2026 (Theme B: Build)."
 url = "https://doi.org/10.5281/zenodo.21850976"
 date = "Sep 2026"
+title_nb = "Replication Radar – et nettsted og et verktøy for KI-assistenter som viser hvilke publiserte artikler som er etterprøvd uavhengig, og med hvilken konklusjon, basert på OpenAIRE Graph. Vinner av OpenAIRE AI Hackathon 2026 (tema B: Build)."
+date_nb = "sep. 2026"
 
 [[items]]
 badge = "project"
 title = "Making research reproducible and replicable for IFREMER within the ESA GRID4EARTH project."
 date = "2026"
+title_nb = "Gjør forskning reproduserbar og etterprøvbar for IFREMER i ESA-prosjektet GRID4EARTH."
 
 [[items]]
 badge = "software"
 title = "FORRT Research MCP — an AI-assistant tool to search past replication studies on Science Live and help write up new ones."
 url = "https://doi.org/10.5281/zenodo.22869401"
 date = "Sep 2026"
+title_nb = "FORRT Research MCP – et verktøy for KI-assistenter som søker i tidligere replikasjonsstudier på Science Live og hjelper med å skrive opp nye."
+date_nb = "sep. 2026"
 
 [[items]]
 badge = "outcome"
 title = "Marine heatwaves are getting longer and more frequent — replication of Oliver et al. 2018 on independent ESA CCI satellite sea-surface temperature. Validated."
 url = "https://platform.sciencelive4all.org/np/story?uri=https%3A%2F%2Fw3id.org%2Fnp%2FRAQfGMNmJiFt4KDDJE8dsiT3az4CRYehRuDFoa-tXGc8w"
 date = "Aug 2026"
+title_nb = "Marine hetebølger blir lengre og hyppigere – replikasjon av Oliver mfl. (2018) med uavhengige satellittmålinger av havoverflatetemperatur fra ESA CCI. Bekreftet."
+date_nb = "aug. 2026"
 
 [[items]]
 badge = "synthesis"
 title = "Iberian bumblebees under climate warming — replication of Soroye 2020. Mechanism transfers; coefficient ~2× the continental estimate."
 url = "https://platform.sciencelive4all.org/np/?uri=https://w3id.org/sciencelive/np/RA1q6c0fG2bMbiozF8Az2UpIfzAzqp8hoVEl6QIzfUpH8"
 date = "May 2026"
+title_nb = "Iberiske humler og klimaoppvarming – replikasjon av Soroye (2020). Mekanismen gjelder også her; koeffisienten er omtrent dobbelt så stor som det kontinentale anslaget."
+date_nb = "mai 2026"

@@ -1,14 +1,18 @@
+{#- Fields with a language suffix (title_nb, date_nb) override the English ones on translated pages. -#}
 {%- set data = load_data(path="data/recent_work.toml") -%}
+{%- set sfx = "" -%}{%- if lang != config.default_language %}{% set sfx = "_" ~ lang %}{% endif -%}
 <div class="recent-work">
 {%- for item in data.items %}
+  {%- set title = item | get(key="title" ~ sfx, default=item.title) -%}
+  {%- set date = item | get(key="date" ~ sfx, default=item.date) %}
   <div class="work-item">
-    <span class="work-badge work-badge--{{ item.badge }}">{{ item.badge | title }}</span>
+    <span class="work-badge work-badge--{{ item.badge }}">{{ trans(key="badge_" ~ item.badge, lang=lang) }}</span>
     {%- if item.url %}
-    <a class="work-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    <a class="work-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ title }}</a>
     {%- else %}
-    <span class="work-title">{{ item.title }}</span>
+    <span class="work-title">{{ title }}</span>
     {%- endif %}
-    <span class="work-date">{{ item.date }}</span>
+    <span class="work-date">{{ date }}</span>
   </div>
 {%- endfor %}
 </div>

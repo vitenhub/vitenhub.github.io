@@ -1,18 +1,23 @@
 # Team cards shown on the homepage via the team() shortcode.
 # photo is a path under static/ (optional); highlights are rendered as Markdown.
+# role_nb / bio_nb / highlights_nb: Norwegian text for /nb/ (falls back to English when missing).
 
 [[members]]
 name = "Jean Iaquinta"
 role = "CEO"
+role_nb = "Daglig leder"
 photo = "jean-iaquinta.jpg"
 bio = "Scientific-computing engineer specialising in reproducible, portable and high-performance research software — from bitwise-reproducible climate models in containers to Pangeo deployments on the European Open Science Cloud. Research background in climate and environmental science."
+bio_nb = "Ingeniør innen vitenskapelig databehandling, spesialisert på reproduserbar, portabel og høyytelses forskningsprogramvare – fra klimamodeller som gir bit-for-bit identiske resultater i containere, til Pangeo på European Open Science Cloud. Forskningsbakgrunn innen klima- og miljøvitenskap."
 linkedin = "https://www.linkedin.com/in/jean-iaquinta-680839407/"
 
 [[members]]
 name = "Anne Fouilloux"
 role = "Founder"
+role_nb = "Gründer"
 photo = "anne-fouilloux.png"
 bio = "25+ years preparing cutting-edge research for industry uptake."
+bio_nb = "Over 25 års erfaring med å gjøre banebrytende forskning klar til bruk i næringslivet."
 linkedin = "https://www.linkedin.com/in/annefouilloux/"
 highlights = [
   "**€8M EU project coordinator** — Horizon Europe [FAIR2Adapt](https://fair2adapt-eosc.eu), climate adaptation strategies",
@@ -20,4 +25,11 @@ highlights = [
   "**PhD Atmospheric Physics** with practitioner experience at [ECMWF](https://www.ecmwf.int) (UK), Simula Research Laboratory, and University of Oslo",
   "**500+ researchers trained** across Europe on big-data analysis and FAIR principles",
   "**Contributor** to [EOSC-Nordic](https://eosc-nordic.eu), [RELIANCE](https://cordis.europa.eu/project/id/101017501), and the [Pangeo](https://pangeo.io) community",
+]
+highlights_nb = [
+  "**Koordinator for et EU-prosjekt på 8 millioner euro** – Horizon Europe [FAIR2Adapt](https://fair2adapt-eosc.eu), strategier for klimatilpasning",
+  "**Medlem av Pangeo Steering Council** – koordinerer europeiske aktiviteter og utrulling på [EOSC](https://eosc.eu) i det globale fellesskapet for stordata i geofag",
+  "**Ph.d. i atmosfærefysikk** med praktisk erfaring fra [ECMWF](https://www.ecmwf.int) (Storbritannia), Simula Research Laboratory og Universitetet i Oslo",
+  "**Over 500 forskere kurset** i Europa i stordataanalyse og FAIR-prinsippene",
+  "**Bidragsyter** til [EOSC-Nordic](https://eosc-nordic.eu), [RELIANCE](https://cordis.europa.eu/project/id/101017501) og [Pangeo](https://pangeo.io)-fellesskapet",
 ]

@@ -1,22 +1,27 @@
+{#- Fields with a language suffix (role_nb, bio_nb, highlights_nb) override the English ones on translated pages. -#}
 {%- set data = load_data(path="data/team.toml") -%}
+{%- set sfx = "" -%}{%- if lang != config.default_language %}{% set sfx = "_" ~ lang %}{% endif -%}
 <div class="team">
 {%- for m in data.members %}
+  {%- set role = m | get(key="role" ~ sfx, default=m.role) -%}
+  {%- set bio = m | get(key="bio" ~ sfx, default=m.bio) -%}
+  {%- set highlights = m | get(key="highlights" ~ sfx, default=m | get(key="highlights", default=[])) %}
   <div class="team-member">
     {%- if m.photo %}
     <img src="/{{ m.photo }}" alt="{{ m.name }}">
     {%- endif %}
     <h3>{{ m.name }}</h3>
-    <p class="team-role">{{ m.role }}</p>
-    <p>{{ m.bio }}</p>
-    {%- if m.highlights %}
+    <p class="team-role">{{ role }}</p>
+    <p>{{ bio }}</p>
+    {%- if highlights %}
     <ul>
-      {%- for h in m.highlights %}
+      {%- for h in highlights %}
       <li>{{ h | markdown(inline=true) | safe }}</li>
       {%- endfor %}
     </ul>
     {%- endif %}
     {%- if m.linkedin %}
-    <p><a href="{{ m.linkedin }}" target="_blank" rel="noopener">Connect with {{ m.name | split(pat=" ") | first }} on LinkedIn →</a></p>
+    <p><a href="{{ m.linkedin }}" target="_blank" rel="noopener">{{ trans(key="linkedin_connect", lang=lang) | replace(from="{name}", to=m.name | split(pat=" ") | first) }}</a></p>
     {%- endif %}
   </div>
 {%- endfor %}
