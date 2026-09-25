@@ -1,5 +1,5 @@
 +++
-title = "Viten Hub — Reproducible and replicable research"
+title = "Viten Hub — Know the research holds, before you rely on it"
 description = "We check published research before you rely on it: we re-run it, test it on your data, and give you a clear answer with its limits. Fixed price, from €2,000."
 +++
 
