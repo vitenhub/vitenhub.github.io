@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+
+    {#- Link previews (LinkedIn, Facebook, Slack, X) -#}
+    {%- set og_title = config.extra.tagline ~ " | " ~ config.title -%}
+    {%- set og_desc = config.description -%}
+    {%- set og_url = config.base_url -%}
+    {%- if section and section.description -%}
+        {%- set og_desc = section.description -%}
+    {%- endif -%}
+    {%- if page -%}
+        {%- set og_title = page.title -%}
+        {%- set og_desc = page.description | default(value=config.description) -%}
+        {%- set og_url = page.permalink -%}
+    {%- endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.title }}">
+    <meta property="og:title" content="{{ og_title }}">
+    <meta property="og:description" content="{{ og_desc }}">
+    <meta property="og:url" content="{{ og_url }}">
+    <meta property="og:image" content="{{ get_url(path='og-image.png') }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:image:alt" content="Viten Hub — Know the research holds, before you rely on it">
+    <meta name="twitter:card" content="summary_large_image">
     
     <!-- This line includes your CSS file -->
     <link rel="stylesheet" href="{{ get_url(path='css/main.css', cachebust=true) }}">
