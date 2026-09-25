@@ -1,6 +1,6 @@
 +++
 title = "Viten Hub — Reproducible and replicable research"
-description = "We make research re-runnable by anyone and test whether published results hold on your data. Fixed price. You get tested code, a clear verdict with its limitations, and a record you and others can search and find later. From €2,000."
+description = "We check published research before you rely on it: we re-run it, test it on your data, and give you a clear answer with its limits. Fixed price, from €2,000."
 +++
 
 ## How Viten Hub can help

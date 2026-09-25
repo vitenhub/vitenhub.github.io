@@ -3,7 +3,7 @@ base_url = "https://vitenhub.no"
 
 # The site title and description
 title = "Viten Hub"
-description = "Reproducible and replicable research — we make your research re-runnable by anyone, and test whether published results hold on your data. Citable results on the open Science Live platform."
+description = "We check published research before you rely on it: we re-run it, test it on your data, and give you a clear answer with its limits. Fixed price."
 
 # The default language
 default_language = "en"
